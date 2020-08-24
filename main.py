@@ -32,6 +32,7 @@ def check_currency(currency):
     supported = False
     for row in csv_reader:
       if currency == row['ISO 4217 Code']:
+        # Tell the user ISO code is supported
         click.echo('{} is supported'.format(row['Country']))
         supported = True
         return
