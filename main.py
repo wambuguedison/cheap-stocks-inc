@@ -40,6 +40,3 @@ def check_currency(currency):
     # Tell the user ISO code is not supported
     if not supported:
       click.echo('The currency - {} is not supported'.format(currency))
-
-if __name__ == "__main__":
-  check_currency()
