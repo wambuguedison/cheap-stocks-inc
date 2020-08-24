@@ -34,6 +34,7 @@ def check_currency(currency):
       if currency == row['ISO 4217 Code']:
         click.echo('{} is supported'.format(row['Country']))
         supported = True
+        return
 
     # Tell the user ISO code is not supported
     if not supported:
