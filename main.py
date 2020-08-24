@@ -6,13 +6,13 @@ import csv
 def check_currency(currency):
   """Usage
 
-  check_currency 'currency'
+  check-currency 'currency'
 
   - where currency is the ISO 4217 code
 
   This command checks whether the currency is supported or not
 
-  check_currency --help
+  check-currency --help
 
   This command shows how to use this tool
   """
