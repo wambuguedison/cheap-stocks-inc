@@ -23,7 +23,7 @@ pip install virtualenv
 virtualenv env
 . venv/bin/activate #Linux or OsX
 venv\scripts\activate #Windows
-pip install requirements.txt
+pip install -r requirements.txt
 pip install --editable .
 ```
 
